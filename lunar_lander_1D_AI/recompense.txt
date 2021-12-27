@@ -1,0 +1,7 @@
+Plus la vitesse est proche de 0 au niveau de la surface, plus la récompense est force
+Input : Vitesse, altitude
+Sortie : Burn or not
+
+Si la vitesse est négative, diminuer la récompense de 5
+Si la vitesse est positive, augmenter de 1
+Si le lander passe la surface, diminue la récompense de - la vitesse
